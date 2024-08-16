@@ -1,7 +1,5 @@
 import React from "react";
 
-function MainArea({ children }) {
+export default function main({ children }) {
   return <main className="main">{children}</main>;
 }
-
-export default MainArea;
